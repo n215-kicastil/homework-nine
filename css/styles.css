@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+
+h1{
+
+  font-size: 2em;
+}
+
+
+nav {
+
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a{
+
+  text-decoration: none;
+  color:   #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+h1  {
+
+  color: rgb(4, 76, 164);
+ 
+  margin: 50px;
+}
+
+p{
+  color: black;
+  margin: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  
+}
+
+ button {
+  text-decoration: none;
+  background-color: rgb(9, 52, 105);
+  margin: 50px;
+  border-radius: 16px;
+  color:#ffffff;
+  width: 150px;
+  height: 30px;
+  border-color: rgb(9, 52, 105);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  margin-left: 1050px;
+}
+
+
+
+
+.homeContent h1 {
+  width: 1000px;
+  margin: 0 auto;
+  color:rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  
+}
+.homeContent p {
+  width: 990px;
+  margin: 0 auto;
+  font-size: 15px;
+  color:rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.homeContent {
+  width: 100%;
+  height: 670px;
+  margin: 0 auto;
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/VanGogh_2020_LaurenceLabat_HR-5956-2-1024x682.jpg);
+background-size: cover;
+ background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+.homeContent button{
+
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  color: rgb(9, 52, 105);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-left: 235px;
+
+}
+
+
+
+
+
+
+
+.aboutContent .hero{
+
+  width: 100%;
+  height: 470px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/van-gogh-alive-uk-london-experience.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+
+}
+
+.aboutContent  h1{
+
+  width: 990px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+
+}
+
+.aboutContent  p{
+
+  width: 990px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+  
+}
+
+.aboutContent h2  {
+
+  color: rgb(4, 76, 164);
+ 
+  margin-left: 235px;
+  margin-bottom: 25px;
+  font-size: 30px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.product {
+  max-width: 980px;
+  margin-top: 110px;
+  margin-bottom: 180px;
+  margin: 0 auto;
+}
+
+.product .product-header h1 {
+  margin-bottom: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  font-size: 60px;
+}
+
+.product .prduct-header .border-bottom {
+  width: 155px;
+  height: 2px;
+  
+  margin-bottom: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product .product-header p {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product .merch-quotes {
+  margin-top: 107px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 50px;
+}
+
+.product .merch-quotes .client-quote-title {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product .merch-quotes .box {
+  max-width: 722px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.product .merch-quotes .box .merch-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+
+.product .merch-quotes .box .merch-image img {
+  width: 100%;
+}
+
+.product .merch-quotes .box .quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+}
+
+.product .merch-quotes .box .quote p {
+  font-size: 16px;
+}
+
+.product .merch-quotes .box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #000000;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+          
+            width: 980px;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-left: 200px;
+            
+            
+          
+}
+
+.contactForm h1{
+  margin: 0 auto;
+  color:rgb(9, 52, 105);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+  
+  
+
+ 
+
+}
+ .contactForm .map {
+  width: 400px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  
+
+}
+ .contactForm .map img {
+  width: 400px;
+  height: 560px;
+  margin-bottom: 34px;
+  padding: 20px;
+
+}
+
+ .contactForm .form .textInput {
+  width: 529px;
+  margin-bottom: 20px;
+
+}
+ .contactForm .form .textInput input {
+  width: 529px;
+  height: 60px;
+  color: rgb(9, 52, 105);
+  background-color: #f5f5f5;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 16px;
+  
+  border: none;
+  padding: 20px;
+}
+ .contactForm .form .messageInput {
+  width: 529px;
+  margin-bottom: 20px;
+}
+ .contactForm .form .messageInput input {
+  width: 529px;
+  height: 200px;
+  color: rgb(9, 52, 105);
+  background-color: #f5f5f5;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  border: none;
+  padding: 20px;
+}
+ .contactForm .form .subBtn {
+  width: 168px;
+  height: 60px;
+  background-color: rgb(9, 52, 105);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Gill Sans", sans-serif;
+  font-style: normal;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 60px;
+  border-radius: 90px;
+}
+
+.contactForm .form{
+  margin-top: 100px;
+  
+  
+
+}
